@@ -1,1 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.btn {
+    border: 2px solid #1f2937;
+    background: #1f2937;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+}
+
+.btn-secondary {
+    color: #1f2937;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+}
+
+.btn-secondary:hover {
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.navbar-logo i {
+    font-size: 30px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    font-size: 14px;
+    font-weight: 500px;
+    transition: all 0.5s ease;
+}
+
+.navbar-link:hover {
+    color: #000;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-location h5 {
+    font-weight: 500;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.navbar-location p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.navbar-actions .btn {
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
