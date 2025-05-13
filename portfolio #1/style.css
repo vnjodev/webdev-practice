@@ -183,6 +183,8 @@ a {
     transition: all 0.5s ease;
 }
 
+/* skills section styling */
+
 .skills {
     padding: 60px;
     display: flex;
@@ -245,5 +247,103 @@ a {
     font-size: 14px;
     color: #7a7a7a;
     font-weight: 500;
+}
+
+/* showcase section styling */
+
+.showcase {
+    padding: 80px 60px 100px;
+    background: #e5e7eb;
+}
+
+.showcase-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.showcase-header h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.showcase-header .btn{
+    font-size: 13px;
+    padding: 5px 16px;
+    color: #fff;
+    background: #1f2937;
+    border-color: #1f2937;
+}
+
+.showcase-categories .category:first-child {
+    margin-bottom: 100px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+}
+
+.category-title, .category-desc {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.category-title {
+    gap: 12px;
+}
+
+.category-title h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.category-title i {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.category-desc {
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.category-desc p {
+    font-size: 13px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.category-desc a {
+    font-size: 22px;
+}
+
+.category-projects {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 25%;
+    height: 420px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    background: #6b7280;
+    display: flex;
+    
 }
 
