@@ -62,18 +62,18 @@ body {
     font-size: 30px;
 }
 
-.navbar-menu {
+.navbar-menu, .footer-links {
     display: flex;
     gap: 20px;
 }
 
-.navbar-link {
+.navbar-link, .footer-links a {
     font-size: 14px;
     font-weight: 500px;
     transition: all 0.5s ease;
 }
 
-.navbar-link:hover {
+.navbar-link:hover, .footer-links a:hover {
     color: #000;
 }
 
@@ -463,6 +463,72 @@ body {
 .award a i {
     font-size: 24px;
 }
+
+/* contact styling */
+
+.contact {
+    text-align: center;
+    padding: 60px;
+}
+
+.contact h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact .btn {
+    padding: 6px 20px;
+    border: 2px solid #1f2937;
+    color: #fff;
+    background: #1f2937;
+    margin-bottom: 14px;
+}
+
+.contact p {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact p span {
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* footer styling */
+
+.footer {
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.footer-brand a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-brand p {
+    font-size: 13px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
 
 
 
