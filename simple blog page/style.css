@@ -106,3 +106,34 @@ body article blockquote {
     padding: 30px;
     border-radius: 16px;
 }
+
+/* webpage responsiveness */
+
+@media screen and (max-width: 766px) {
+    
+    body .container header {
+        padding: 10px 20px 30px;
+        min-height: 300px;
+    }
+
+    body .container header .category {
+        font-size: 0.9rem;
+    }
+
+    body .container header .info .title {
+        font-size: 2.2rem;
+    }
+
+    body .container header .info .subtitle {
+        font-size: 0.8rem;
+    }
+
+    body .container .details {
+        flex-direction: column;
+    }
+
+    body .container .details .item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+}
